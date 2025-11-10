@@ -1,5 +1,5 @@
-#cw#
-##user部分##：
+# cw
+## user部分：
 - 目前完成了登陆注册，你可以通过user里的静态方法去访问currentuser表示目前登录的账号的四个相关信息；也可也通过users静态去访问hash整个内容。
 - 后续对history和watchlist进行更新后可以直接调用users.userdatastorage里的save进行保存到csv。但是其中的异常问题仍有不足，没有考虑没有文件情况
-###注意data放在了项目根目录下，运行时请确保workpalce是y2_1_cw
+### 注意data放在了项目根目录下，运行时请确保workpalce是y2_1_cw
